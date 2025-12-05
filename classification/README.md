@@ -26,8 +26,12 @@ LABEL is a pipeline that integrates histology feature extraction with a spatiall
   2. Subregion
   3. Broad cell type
 - **Training schemes**:
-  - 80/20 random split across sections
-  - Leave-one-section-out cross-validation
+  
+  **1. Fixed subset training**
+   The standard kNN classifier is trained using a fixed subset of 80,000 spots (≈3% of the full dataset), defined in `train_8k_samples.csv`. The remaining 20% of the data is held out for evaluation.
+  
+  **2. Leave-one-section-out evaluation**
+   For LOO experiments, features from all tiles are used. In each fold, three sections are used for training and the remaining section is held out for testing.
 
 ------
 
