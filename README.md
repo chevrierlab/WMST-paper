@@ -12,7 +12,7 @@ This repository serves as a snapshot of the analysis code used in the study.
   Code for the **LABEL pipeline** (Spatially Aware Histology-Based Classification), used for histology-based tissue, tissue region, and cell type annotation.
 
 - **`analysis/spatial transcriptomics/`**  
-  Analysis scripts and notebooks for whole-body spatial transcriptomics, including preprocessing, subregion annotation, differential expression, and downstream analyses used to generate figures and tables in the manuscript.
+   Analysis scripts and notebooks for preprocessing, clustering, differential expression, gene regulatory network analysis, and other downstream analyses.
 
 
 ## Computing environment
