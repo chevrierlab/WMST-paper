@@ -47,8 +47,7 @@ walk(organs, function(organ){
   Organ_Core_genes = length(unique(Organ_Core_DEG_f$gene))
   
   printg("[{TAG}] {Regulon_genes} gene across regulons. 
-         {percenter(Organ_Core_genes, Regulon_genes)}% overlap with Core DEGs.
-         Expected is 100%")
+         {percenter(Organ_Core_genes, Regulon_genes)}% overlap with Core DEGs.")
   
   
   set.seed(101)
@@ -177,3 +176,4 @@ walk(organs, function(organ){
   
 
 }
+
