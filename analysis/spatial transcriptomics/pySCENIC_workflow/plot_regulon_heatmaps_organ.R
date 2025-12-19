@@ -5,7 +5,6 @@
 .libPaths(c("C:/Users/mhcle/Documents/R/4.3_upgradedRCPP",
             "C:/Users/mhcle/AppData/Local/R/win-library/4.3",
             .Library))
-install.packages("shadowtext", repos = "https://cloud.r-project.org", type = "binary")
 library(clusterProfiler)
 
 
@@ -176,4 +175,5 @@ walk(organs, function(organ){
   
   
   
+
 }
